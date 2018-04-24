@@ -1,0 +1,30 @@
+{
+    "name": "jasechen/lara-tdbquery",
+    "description": "this is a traditional db query.",
+    "type": "library",
+    "keywords": ["laravel", "database", "query"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jase Chen",
+            "email": "jase.chen@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/jasechen/lara-tdbquery",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jasechen\\Tdbquery\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Jasechen\\Tdbquery\\TdbqueryServiceProvider"
+            ]
+        }
+    }
+}
