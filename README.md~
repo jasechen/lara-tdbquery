@@ -5,11 +5,11 @@ This Laravel package to query DATA from database with old way.
 
 ### \# Installation
 
-1. use `composer` install this package.
+1. use `composer` install this package
 
         $ composer require jasechen/lara-tdbquery
 
-2. edit `config/app.php`.
+2. edit `config/app.php`
 
         $ joe config/app.php
 
@@ -21,7 +21,7 @@ This Laravel package to query DATA from database with old way.
             ...
         ],
 
-3. reload and update packages.
+3. reload and update packages
 
         $ composer dump-autoload
 
